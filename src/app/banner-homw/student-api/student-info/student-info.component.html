@@ -1,0 +1,26 @@
+<div class="container">
+    <h1><u>Student Info</u></h1>
+    <form [formGroup]="locatorModel" style="margin-left:15px;">
+        <div class="row">
+            <mat-form-field>
+                <input matInput placeholder="Student Name" formControlName="ename">    
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field>
+                <input matInput placeholder="Student Id" formControlName="eid">
+            </mat-form-field>
+        </div>
+
+       <div class="row">
+        <mat-form-field>
+            <input matInput placeholder="Student Contact" formControlName="contact">
+        </mat-form-field>
+       </div>
+       <div class="row">
+            <mat-form-field>
+                <input matInput placeholder="Student" formControlName="mail">
+            </mat-form-field>
+       </div>
+</form>
+</div>
